@@ -39,8 +39,7 @@ int main()
   bool ret;
 
 	NameLookup lookup;
-	//Graph lookup("danish");
-
+	
 	for (int i = 0; i < num_names; ++i)
   {
     ret = lookup.insert(names[i]);
@@ -94,9 +93,7 @@ int main()
 
 
 	
-	int yu;
-	cout<<"thsfisend"<<endl;
-	cin>>yu;
+	
 
 	return 0;
 }

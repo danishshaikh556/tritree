@@ -7,9 +7,6 @@
 #include <cmath>
 #include <map>
 #include<set>
-
-
-
 #include <fstream>
 #include <vector>
 #include <string>
@@ -40,16 +37,16 @@ private:
 	};
 	
 	graphT * root;
-	int globalCalls;
+	int  globalCalls;
     void addChar(string name,graphT * curr);
 	void printin(string sofar,graphT * curr);
 	void addCharToVec(graphT * curr,vector<char> * next);
 	void listofNames(string soFar,graphT * curr ,vector<string>* name_list);
 	graphT * getNode(string sofar,graphT * curr);
-	//graphT *g=new graphT;
+	
 };
 
-//#include "BST.cpp"
+
 
 #endif
 
